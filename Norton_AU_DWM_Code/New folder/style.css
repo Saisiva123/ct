@@ -1,0 +1,2157 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  min-width: 1024px;
+  max-width: 1600px;
+  background-color: #1f2831;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  background-color: #1a2129;
+}
+#logo {
+  width: 160px;
+  height: 42px;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+  background-image: url("Assets/Images/Logo-Norton.png");
+  background-size: 100% 100%;
+}
+#countryCode {
+  width: 78px;
+  height: 18px;
+  position: absolute;
+  right: 203px;
+  top: 32px;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 300;
+  color: white;
+}
+.heroBanner {
+  width: 100%;
+  height: 766px;
+  background-image: url("Assets/Images/Image-HeroBanner-Desktop.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+.heroBannerContent {
+  width: 724px;
+  height: 100%;
+  font-family: Roboto;
+  position: absolute;
+  left: 200px;
+  color: white;
+}
+#deviceSecurityContent {
+  width: 740px;
+  height: 115px;
+  margin: 0;
+  font-size: 46px;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  position: absolute;
+  top: 73px;
+}
+.getAdditional {
+  position: relative;
+  top: 303px;
+  font-size: 24px;
+}
+.getAdditional > span {
+  color: #ffc200;
+  font-weight: 500;
+}
+.heroBannerContent a {
+  text-decoration: none;
+}
+#offerDetailsTxt a {
+  text-decoration: underline;
+}
+#description {
+  line-height: 26px;
+  position: absolute;
+  top: 190px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 673px;
+}
+#description span {
+  font-weight: 700;
+}
+.plansTab {
+  width: 489px;
+  height: 40px;
+  position: absolute;
+  bottom: 330px;
+  color: rgb(202, 199, 199);
+}
+.plansTab > div {
+  float: left;
+  width: 110px;
+  height: 36px;
+  border: 1px solid rgb(182, 179, 179);
+  border-radius: 2px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 18px;
+  font-size: 16px;
+}
+#cutOffAndDiscountForMob {
+  display: none;
+}
+#forMobile {
+  display: none;
+}
+#forDesktop {
+  display: block;
+}
+.helplineSectionForMobile {
+  display: none;
+}
+.activePlan {
+  color: #242e39;
+  background-color: #ffffff;
+  border: none;
+}
+.plansTab > div:hover {
+  cursor: pointer;
+}
+.priceSection {
+  width: 300px;
+  height: 86px;
+  display: none;
+  color: white;
+  position: absolute;
+  bottom: 228px;
+}
+
+.priceSection p {
+  margin: 0;
+}
+.priceSection #noOfDevices {
+  font-size: 18px;
+  font-weight: 300;
+  color: #c6c6c6;
+}
+#noOfDevices + p {
+  position: absolute;
+  text-decoration: line-through;
+  top: 45px;
+  left: 34px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #c6c6c6;
+}
+.plansTab > div:hover {
+  color: #242e39;
+  background-color: white;
+}
+.priceSection div p:first-child {
+  font-size: 26px;
+  font-weight: 500;
+  color: white;
+}
+.priceSection div {
+  position: absolute;
+  bottom: -12px;
+}
+.priceSection div p:first-child sub {
+  position: relative;
+  font-size: 14px;
+  bottom: 5px;
+}
+.priceSection div p {
+  float: left;
+}
+
+.priceSection div p:last-child {
+  text-align: center;
+  line-height: 28px;
+  background-color: #ec1919;
+  font-size: 15px;
+  width: 155px;
+  height: 27px;
+  top: 1px;
+  margin-left: 17px;
+  padding: 0px 3px;
+}
+.priceSection div p:last-child::before {
+  content: " ";
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #212025;
+  position: absolute;
+  top: -1px;
+  margin-left: -20px;
+}
+.priceSection div p:last-child::after {
+  content: " ";
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #212025;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+.subscribeBtn {
+  width: 250px;
+  height: 48px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  position: absolute;
+  bottom: 132px;
+  background-color: #ffc200;
+  color: #242e39;
+  line-height: 48px;
+  border-radius: 2px;
+}
+#offerDetailsTxt {
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 62px;
+}
+#offerDetailsTxt a {
+  color: white;
+}
+#noOfDevices td p:not(.title) {
+  padding: 20px;
+  letter-spacing: 0.7px;
+}
+/* ////helplineSection start////// */
+.helplineSection {
+  height: 113px;
+  background-color: #2e3a46;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.helplineContainer {
+  height: 100%;
+  margin: 0 12%;
+  display: flex;
+}
+.helplineInner:first-child {
+  width: 36%;
+}
+.helplineInner:nth-child(2) {
+  width: 40%;
+}
+.helplineInner:nth-child(3) {
+  width: 24%;
+}
+#helpBlock1 {
+  display: flex;
+  margin: 21px 0px;
+}
+#helpBlock2 {
+  margin: 21px 0px;
+  margin-left: 8%;
+  display: flex;
+}
+#helpBlock3 {
+  display: flex;
+  margin: 21px 0px;
+  margin-left: 20%;
+}
+.helpText {
+  width: 80%;
+  padding-left: 35px;
+}
+.helpText p {
+  margin-top: 10px;
+}
+#helpBlock3 p {
+  margin-top: 18px;
+}
+/* /////fullComparisionChart start */
+.fullComparisionChart {
+  width: 100%;
+  height: auto;
+  background-color: #242e39;
+  position: relative;
+  padding-bottom: 70px;
+}
+#chartHeader {
+  width: 40%;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  top: 71px;
+  color: white;
+  font-family: "Source Sans Pro";
+}
+.overlayForChart {
+  width: 83%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.overlayForChart table {
+  width: 100%;
+  transform: scale(0.9);
+  height: 100%;
+  font-family: Roboto;
+  color: #ffffff;
+  border-collapse: collapse;
+  font-weight: 100;
+  position: relative;
+  top: 10px;
+}
+.overlayForChart table tbody {
+  table-layout: fixed;
+  width: 75%;
+}
+.overlayForChart table tr {
+  width: 100%;
+}
+.overlayForChart table tr td:nth-child(1) {
+  width: 27%;
+  text-align: left;
+  border: none;
+  position: relative;
+}
+
+.overlayForChart table tr td:nth-child(1) p {
+  margin-left: 20px;
+}
+.overlayForChart table .title {
+  width: 84%;
+  font-size: 18px;
+  float: right;
+}
+#chartHeading {
+  background-color: #242e39;
+}
+
+#chartHeading p {
+  margin: -20px 0 0 -4px;
+  line-height: 43px;
+  font-family: "Source Sans Pro";
+  font-size: 38px;
+  font-weight: 300;
+  opacity: 1;
+  letter-spacing: 1px;
+  float: left;
+}
+.activeTableCell {
+  padding-top: 25px;
+}
+.title + .fas {
+  width: 7px;
+  height: 11px;
+  font-size: 18px;
+  color: #ffc200;
+  margin-top: 6px;
+  float: left;
+  position: relative;
+  left: 24px;
+}
+#sywareContent {
+  left: -19%;
+}
+.titleContent {
+  float: right;
+  width: 74%;
+  cursor: auto;
+  position: relative;
+  font-size: 13px;
+  left: -15%;
+  display: none;
+  padding: 10px 0px 10px 0px;
+  color: #c3c3c3;
+}
+#noOfDevices td p:not(.title) {
+  padding: 20px;
+  letter-spacing: 0.4px;
+}
+.overlayForChart table p {
+  margin: 0;
+  letter-spacing: 0.16px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.overlayForChart table tr td,
+.overlayForChart table tr:nth-child(2) td:nth-child(1) {
+  width: 5%;
+  height: 89px;
+  text-align: center;
+  border-left: 1px solid #3c4854;
+}
+.overlayForChart table tr:nth-child(1) td:not(#chartHeading) {
+  height: 109px;
+  border-bottom: 1px solid #242e39;
+}
+
+.overlayForChart table tr:nth-child(2) {
+  height: 229px;
+}
+#deviceSecurity td p,
+#onlinePrivacy td p,
+#identityNotification td p {
+  font-size: 22px;
+  font-weight: bold;
+}
+table tr:nth-child(odd) {
+  background-color: #29323d;
+}
+table tr:nth-child(even) {
+  background-color: #2e3a46;
+}
+#subscription td {
+  height: 196px;
+}
+#deviceSecurity td,
+#onlinePrivacy td,
+#identityNotification td {
+  border: none;
+}
+
+#discount {
+  font-size: 16px;
+  width: 135px;
+  color: white;
+  padding: 2px;
+  position: relative;
+  top: 18px;
+  margin: 0 auto;
+}
+
+#tag {
+  font-size: 12px;
+  position: relative;
+  top: 57px;
+  color: #d3d3d3;
+  margin: 0 auto;
+}
+#value:not(sub) {
+  font-weight: 500;
+  font-size: 26px;
+  position: relative;
+  top: 30px;
+}
+#value sub {
+  font-size: 18px;
+  position: relative;
+  top: -4px;
+}
+#value {
+  margin: 0;
+  font-weight: normal;
+}
+.overlayForChart table tbody tr:nth-last-child(2) td:nth-child(1) {
+  background-color: #242e39;
+}
+#cutOff {
+  margin: 0;
+  position: relative;
+  top: 25px;
+  text-decoration: line-through;
+  font-weight: normal;
+  opacity: 0.7;
+}
+.overlayForChart table td a {
+  text-decoration: none;
+}
+#buy {
+  font-size: 17px;
+  font-weight: bold;
+  width: 170px;
+  margin: 0 auto;
+  position: relative;
+  color: black;
+  top: 50px;
+  padding: 8px;
+  background-color: #ffc200;
+  border-radius: 2px;
+  clear: both;
+  cursor: pointer;
+}
+.labelsUnderGraphMobile li {
+  display: none;
+}
+.overlayForChart table .planTypes {
+  margin-top: 1px;
+  margin-bottom: 4px;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 0.3px;
+  opacity: 1;
+}
+
+#subscription {
+  background-color: #2e3a46;
+}
+.overlayForChart table tr:nth-last-child(2) {
+  height: 255px;
+}
+.yearlyPlans {
+  height: 100%;
+  padding: 0px 15px;
+}
+.overlayForChart table tr:nth-last-child(2) #discount {
+  top: 32px;
+}
+.overlayForChart table tr:nth-last-child(2) #value {
+  top: 50px;
+}
+
+.overlayForChart table tr:nth-last-child(2) #value sub {
+  top: -4px;
+}
+.overlayForChart table tr:nth-last-child(2) #cutOff {
+  top: 45px;
+}
+.overlayForChart table tr:nth-last-child(2) #buy {
+  top: 74px;
+}
+.overlayForChart table tr:nth-last-child(2) #tag {
+  top: 80px;
+  font-size: 13px;
+}
+.circle {
+  width: 21px;
+  height: 21px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #ffc200;
+}
+#chartDescription {
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+  color: white;
+  font-family: "Roboto";
+  margin-top: -39px;
+}
+#chartDescription a {
+  color: white;
+}
+.pointer {
+  cursor: pointer;
+}
+.overlayForChart table tbody tr #chartHeading ~ td:nth-child(5) {
+  position: relative;
+}
+.overlayForChart table tbody tr #chartHeading ~ td:nth-child(5)::before {
+  content: "Recommended";
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  width: 100%;
+  height: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  opacity: 1;
+  border-radius: 12px 12px 0px 0px;
+  background-color: #666666;
+  position: absolute;
+  bottom: 104%;
+  right: 0px;
+}
+/* darkWebMonitoring start */
+.darkWebMonitoring {
+  width: 100%;
+  height: 594px;
+  background-image: url(Assets/Images/Image-BG-DarkWebMonitoring-Desktop.jpg);
+  background-size: 100% 100%;
+  position: relative;
+}
+.darkWebMonitoring p.dwmTitle {
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 36px;
+  width: 647px;
+  max-width: 647px;
+  padding-top: 65px;
+}
+.darkWebMonitoring p.dwmSubTitle {
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  width: 790px;
+  max-width: 790px;
+  padding-top: 18px;
+  line-height: 29px;
+}
+.tableContent {
+  width: 630px;
+  max-width: 630px;
+  left: 212px;
+  top: 240px;
+  position: absolute;
+}
+.tableContent table {
+  width: 630px;
+  color: #ffc200;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 23px;
+  /* background: transparent; */
+}
+.tableContent table tr {
+  background-color: transparent;
+}
+.tableContent table tr td {
+  border: none;
+  width: 230px;
+  height: 71px;
+}
+.tableContent table tr td::before {
+  content: url(Assets/Images/Icon-Checkmark.png);
+  position: relative;
+  right: 10px;
+}
+/* allInOneSolution start */
+.allInOneSolution {
+  width: 100%;
+  height: 740px;
+  position: relative;
+  background-color: #242e39;
+}
+.allInOneSolution p {
+  margin: 0;
+}
+#firstHeader {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  top: 70px;
+}
+#secondHeader {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  top: 90px;
+  margin: 0 auto;
+  position: relative;
+  opacity: 0.7;
+}
+.properties {
+  width: 76.4%;
+  height: 426px;
+  position: relative;
+  top: 159px;
+  margin: 0 auto;
+}
+.properties img {
+  float: left;
+}
+.rightSection {
+  width: 58.5%;
+  height: 100%;
+  color: white;
+  float: right;
+  font-family: "Roboto";
+  display: block;
+  position: relative;
+  top: 32px;
+}
+.VPN,
+.cloudBackup {
+  width: 56%;
+  float: left;
+}
+.cloudBackup {
+  width: 56.2%;
+}
+#propertiesImg {
+  width: 31px;
+  height: 31px;
+  float: left;
+  position: absolute;
+  top: 0;
+}
+.featuresContent {
+  font-size: 15px;
+  padding-top: 16px;
+  clear: both;
+  line-height: 23px;
+}
+
+.VPN p:last-child,
+.cloudBackup p:last-child {
+  padding-right: 81px;
+}
+.protection,
+.passwordManager {
+  width: 43.8%;
+  float: left;
+}
+.secondRow {
+  position: relative;
+  clear: both;
+  top: 95px;
+}
+.headingPart {
+  color: #ffc200;
+  font-size: 24px;
+  position: relative;
+  left: 13px;
+  font-family: "Source Sans Pro";
+}
+/* awardWinning :start */
+.awardWinning,
+.awardWinningForMobile {
+  background-color: #2e3a46;
+  width: 100%;
+  height: 450px;
+  color: #ffffff;
+}
+.awardWinning {
+  width: 100%;
+  height: 547px;
+  position: relative;
+  background-image: url(Assets/Images/Image-BG-WardWinning-Desktop.jpg);
+  background-size: 100% 100%;
+}
+.awardWinningForMobile {
+  display: none;
+}
+.awardSection p {
+  position: absolute;
+  bottom: 47px;
+  width: 70%;
+  text-align: left;
+  font-size: 16px;
+  margin: 0 0 0 5%;
+  font-family: "Roboto";
+  line-height: 25px;
+  display: inline;
+  left: 185px;
+}
+.awardSection {
+  width: 75%;
+  height: 530px;
+  position: relative;
+  margin: 0 auto;
+}
+#awardFooter {
+  text-align: center;
+  position: relative;
+  top: 86px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+  opacity: 0.7;
+  left: 26px;
+  width: 555px;
+}
+.awardTypes {
+  width: 33%;
+  height: 60%;
+  position: relative;
+  top: 66px;
+  float: left;
+}
+#winner2,
+#AAA1,
+#AAA2,
+#avtest1 {
+  display: none;
+}
+.flowerBraces {
+  width: 23%;
+  top: 48px;
+  height: 247px;
+  position: relative;
+  float: left;
+}
+#avtest2 {
+  position: absolute;
+  right: 0;
+}
+.awardImg {
+  width: 77%;
+  height: 80%;
+  float: right;
+  position: absolute;
+  top: 12%;
+  right: 0;
+}
+#AAA {
+  width: 40%;
+  top: 7%;
+  left: 27%;
+}
+#avtest {
+  left: 4%;
+  width: 49%;
+}
+
+.awardLogo {
+  left: 3%;
+  top: 30%;
+  width: 55%;
+  position: absolute;
+}
+#awardHeading {
+  text-align: center;
+  position: relative;
+  top: 68px;
+  margin: 0;
+  font-size: 36px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  width: 738px;
+  margin: 0 auto;
+  left: 26px;
+  line-height: 45px;
+}
+#AAA + p {
+  top: 63%;
+}
+#ratingAbove {
+  margin: 0;
+  left: -15%;
+  top: 63%;
+}
+#sixStars {
+  position: absolute;
+  width: 33%;
+  left: 11%;
+  top: 72%;
+}
+#ratingBelow {
+  position: absolute;
+  top: 80%;
+  left: -20%;
+}
+/* systemRequirements :start */
+.systemRequirements {
+  background-color: #1f2831;
+  width: 100%;
+  height: auto;
+  font-family: Roboto;
+}
+.systemDropdown {
+  width: 72%;
+  position: relative;
+  margin: 0 auto;
+  height: 78px;
+  color: #ffc200;
+}
+.systemDropdown:hover {
+  cursor: pointer;
+}
+.systemDropdown i {
+  font-size: 42px;
+  margin-right: 3px;
+  float: left;
+  position: absolute;
+  top: 49%;
+  margin-left: -33px;
+}
+.systemDropdown p {
+  margin: 0;
+  font-size: 21px;
+  font-family: "Source Sans Pro";
+  position: absolute;
+  top: 55%;
+  padding-left: 7px;
+}
+.dropdownContent {
+  width: 74.5%;
+  height: 570px;
+  position: relative;
+  margin: 0 auto;
+  color: white;
+  display: none;
+}
+#leftSideContent,
+#rightSideContent {
+  width: 48%;
+  float: left;
+}
+#leftSideContent {
+  width: 52%;
+}
+.entitlement,
+.nortonSecureEntitlement {
+  width: 100%;
+  height: 60px;
+  font-size: 16px;
+}
+.entitlement p {
+  width: 282px;
+  margin-bottom: -2px;
+}
+.entitlement ul,
+.nortonSecureEntitlement ul {
+  margin-left: -20px;
+}
+.entitlement ul li,
+.nortonSecureEntitlement ul li {
+  font-size: 14px;
+  opacity: 0.6;
+  line-height: 23px;
+}
+.securityTab,
+.secureVpn {
+  width: 100%;
+  height: 85px;
+  margin-top: 85px;
+  padding-bottom: 20px;
+}
+.securityTab p:last-child,
+.secureVpn p:last-child {
+  font-size: 14px;
+  padding-right: 49px;
+  line-height: 18px;
+  opacity: 0.6;
+}
+.contentForSystem ul li {
+  font-size: 14px;
+  opacity: 0.6;
+  line-height: 23px;
+}
+.chooseSystemLeft,
+.chooseSystemRight {
+  padding-bottom: 20px;
+  padding-top: 7px;
+  width: 93%;
+}
+.chooseSystemLeft {
+  width: 86%;
+}
+select {
+  font-size: 14px;
+  outline: none;
+}
+select:hover {
+  cursor: pointer;
+}
+.chooseSystemLeft div:first-child,
+.chooseSystemRight div:first-child {
+  border-bottom: 1px solid #d0d0d0;
+}
+.contentForSystem {
+  display: none;
+}
+.chooseSystemLeft ul,
+.chooseSystemRight ul {
+  padding-left: 10px;
+}
+.chooseSystemLeft select,
+.chooseSystemRight select {
+  width: 100%;
+  color: white;
+  border-bottom: 2px solid grey;
+  padding: 10px 0px;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("Assets/Images/Icon-ArrowDown.png");
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 61%;
+  background-size: 14px;
+  opacity: 0.6;
+}
+.chooseSystemLeft div:first-child,
+.chooseSystemRight div:first-child {
+  position: relative;
+}
+.chooseSystemLeft div:first-child::after,
+.chooseSystemRight div:first-child::after {
+  content: "Choose your system";
+  position: absolute;
+  right: 24px;
+  font-size: 14px;
+  top: 11px;
+  opacity: 0.6;
+}
+option {
+  color: black;
+}
+.contentForSystem ul li {
+  font-size: 12px;
+}
+.dropdownlastContent {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin: 25px 0 -4px;
+}
+.dropdownlastContent span {
+  color: #fdbb30;
+}
+/* footer :start */
+.footer {
+  height: auto;
+  background-color: #29323d;
+  padding-top: 31px;
+  clear: both;
+  padding-bottom: 24px;
+}
+#disclaimers {
+  width: 75%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.disclaimer_header1 {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 21px;
+  color: #ffc200;
+  position: relative;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+#disclaimers li {
+  list-style: disc;
+  font-size: 14px;
+  color: #d0d0d0;
+  line-height: 18px;
+  margin-left: -16px;
+  font-family: "Roboto";
+  margin-bottom: 11px;
+}
+#disclaimers a {
+  color: #ffc200;
+}
+#disclaimers p:not(.disclaimer_header1) {
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #d0d0d0;
+  line-height: 20px;
+}
+.disclaimer_info strong {
+  color: #ffc200;
+}
+/* copyright start */
+.copyright {
+  width: 100%;
+  height: auto;
+  background-color: #2e3a46;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.copyrightText p {
+  margin: 0;
+  color: #d0d0d0;
+  font-size: 11px;
+  font-family: Roboto;
+  z-index: 0;
+  line-height: 20px;
+}
+
+.copyrightText {
+  width: 73%;
+  margin: 0 auto;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+/* scrollTopBtn start */
+.scrollTopBtn {
+  width: 50px;
+  height: 50px;
+  background-image: url("Assets/Images/Icon-ArrowTop.png");
+  background-repeat: no-repeat;
+  background-size: 39% 28%;
+  background-position: 50% 50%;
+  background-color: #3c4854;
+  position: fixed;
+  right: 80px;
+  bottom: 30px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+.scrollTopBtn:hover {
+  cursor: pointer;
+  background-color: #212a34;
+}
+#descriptionMobile {
+  display: none;
+}
+#productNameMobile {
+  display: none;
+}
+.awardsCarousel {
+  display: none;
+}
+.features {
+  display: none;
+}
+.plusPlan, .blankSpace, .standardPlan, .plansDividerDlx, 
+.plansDividerStd, .deluxePlan, .plansDividerPrm, .premiumPlan, #clickToSubscrip {
+  display: none;
+}
+.priceSection1 {
+  display: none;
+}
+@media screen and (min-width: 1400px) and (max-width: 1570px) {
+  #virusProtectionImg {
+    width: 381px;
+    position: relative;
+    top: 31px;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+  #virusProtectionImg {
+    width: 341px;
+    position: relative;
+    top: 77px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  #virusProtectionImg {
+    width: 300px;
+    position: relative;
+    top: 106px;
+  }
+  .allInOneSolution {
+    height: 795px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  #virusProtectionImg {
+    width: 280px;
+    position: relative;
+    top: 130px;
+  }
+  .allInOneSolution {
+    height: 830px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  #virusProtectionImg {
+    width: 240px;
+    position: relative;
+    top: 160px;
+  }
+  .allInOneSolution {
+    height: 859px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1148px) {
+  #AAA + p {
+    top: 55%;
+    position: relative;
+  }
+  #ratingAbove {
+    top: 55%;
+  }
+  #sixStars {
+    top: 65%;
+  }
+  #ratingBelow {
+    top: 74%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    min-width: 320px;
+    max-width: 600px;
+  }
+  .header {
+    height: 50px;
+  }
+  #logo {
+    width: 95px;
+    height: 30px;
+    left: 14px;
+    top: 10px;
+  }
+  #countryCode {
+    right: 0px;
+    top: 18px;
+    font-size: 11px;
+  }
+  .heroBanner {
+    background-image: url("Assets/Images/Image-HeroBanner-Mobile.jpg");
+    height: 635px;
+  }
+  .heroBannerContent {
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background-color: rgba(35, 40, 58, 0.6);
+  }
+  #deviceSecurityContent {
+    width: 96%;
+    padding: 0 2%;
+    font-size: 32px;
+    font-weight: 600;
+    top: 33px;
+    line-height: 36px;
+  }
+  #description {
+    display: none;
+  }
+  #descriptionMobile {
+    width: 94%;
+    font-size: 16px;
+    position: relative;
+    top: 165px;
+    line-height: 19px;
+    margin: 0 auto;
+    display: block;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+  .priceSection {
+    position: relative;
+    top: 236px;
+    margin: 0 auto;
+    width: 170px;
+    height: 17px;
+  }
+  .getAdditional {
+    position: relative;
+    top: 185px;
+    font-size: 20px;
+    width: 74%;
+    margin: 0 auto;
+    line-height: 26px;
+  }
+  .plansTab {
+    display: none;
+  }
+  #productNameMobile {
+    display: inline-block;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-size: 24px;
+    width: 216px;
+    margin: 0 auto;
+    top: 218px;
+    text-align: center;
+    position: relative;
+    width: 74%;
+    margin: 0 auto;
+    letter-spacing: 0.24px;
+  }
+  #noOfDevices {
+    display: none;
+  }
+  #noOfDevices + p {
+    position: absolute;
+    text-decoration: line-through;
+    top: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #c6c6c6;
+    display: block;
+    position: relative;
+    font-family: "Roboto";
+    left: 5px;
+  }
+  .priceSection div p {
+    float: none;
+  }
+  .priceSection div p:last-child::before {
+    top: 33px;
+  }
+  .priceSection div p:last-child::after {
+    top: 33px;
+  }
+  .subscribeBtn {
+    width: 329px;
+    left: 16px;
+    bottom: 85px;
+    height: 53px;
+  }
+  #offerDetailsTxt {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 40px;
+    margin: 0 auto;
+    width: 360px;
+    max-width: 360px;
+  }
+  /* helplineSection1 */
+  #forDesktophelplineSection {
+    display: none;
+  }
+  #forDesktop {
+    top: 22px;
+  }
+  #forDesktop p:first-child {
+    width: 174px;
+  }
+  #forDesktop p:last-child {
+    margin-top: 8px;
+    margin-left: 3px;
+    line-height: 30px;
+  }
+  #forDesktop p:last-child::before {
+    top: 43px;
+  }
+  #forDesktop p:last-child::after {
+    top: 43px;
+    right: 7px;
+  }
+  /* features mobile */
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slick-list:focus {
+    outline: none;
+  }
+
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+  }
+
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    height: 167px;
+  }
+
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slick-track:before,
+  .slick-track:after {
+    content: "";
+    display: table;
+  }
+
+  .slick-track:after {
+    clear: both;
+  }
+
+  .slick-loading .slick-track {
+    visibility: hidden;
+  }
+
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+  }
+
+  [dir="rtl"] .slick-slide {
+    float: right;
+  }
+
+  .slick-slide img {
+    display: block;
+  }
+
+  .slick-slide.slick-loading img {
+    display: none;
+  }
+
+  .slick-slide.dragging img {
+    pointer-events: none;
+  }
+
+  .slick-initialized .slick-slide {
+    display: block;
+  }
+
+  .slick-loading .slick-slide {
+    visibility: hidden;
+  }
+
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+  }
+
+  .slick-arrow.slick-hidden {
+    display: none;
+  }
+  .features {
+    height: 167px;
+    background-color: #2e3a46;
+    display: block;
+  }
+
+  .slider {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    color: white;
+  }
+
+  .slide {
+    height: 100%;
+    width: 100%;
+  }
+
+  .slide .img-responsive {
+    float: left;
+    position: relative;
+    padding-left: 14%;
+    padding-top: 32px;
+    height: 83px;
+  }
+
+  .slide img + p {
+    position: relative;
+    line-height: 17px;
+    font-size: 14px;
+    font-family: "Roboto";
+    padding-right: 17px;
+    padding-left: 40%;
+    text-align: left;
+  }
+
+  .slick-dots {
+    bottom: 13px;
+  }
+  .slick-dots li {
+    width: 11px;
+    height: 20px;
+  }
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: #2e3a46;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    line-height: 13px;
+    margin-left: 0.2px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #ffc200;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    border: 1px solid #ffc200;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+  .slick-list.draggable {
+    height: 157px;
+}
+  /* scrollToChart */
+  #scrollToChart {
+    display: none;
+  }
+  /* plans part */
+  .plusPlan,
+  .standardPlan,
+  .premiumPlan,
+  .deluxePlan {
+    width: 100%;
+    background-color: #1a222b;
+    position: relative;
+  }
+
+  #plusPlanTitle {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    line-height: 36px;
+    font-family: "Source Sans Pro";
+    padding: 46px 41px 0;
+    width: 230px;
+    max-width: 230px;
+    margin: 0 auto;
+  }
+
+  .plusPlan #planTitle + p {
+    margin-bottom: 30px;
+  }
+
+  #plusPlanDivider {
+    width: 360px;
+    max-width: 360px;
+    height: 7px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 57px;
+    top: 28px;
+    background-color: #C72129;
+  }
+
+  .deluxePlan > div:first-child {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 48px;
+  }
+
+  #planTitle {
+    width: 100%;
+    font-family: "Roboto";
+    color: white;
+    text-align: center;
+    line-height: 34px;
+  }
+
+  .standardPlan > #planTitle,
+  .premiumPlan > #planTitle {
+    top: 31px;
+    position: relative;
+  }
+
+  .deluxePlan > #planTitle {
+    top: 27px;
+    position: relative;
+  }
+
+  #planTitle > p:first-child {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  #planTitle > p:nth-child(2) {
+    font-size: 32px;
+    font-weight: 400;
+    margin: -3px 0 0;
+  }
+
+  #planTitle > p:last-child {
+    font-size: 16px;
+    margin: -2px 0 0;
+  }
+  #saveAmount {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    width: 360px;
+    max-width: 360px;
+    height: 17px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    top: 18px;
+    text-align: center;
+  }
+  #yearlyPrice {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    width: 360px;
+    max-width: 360px;
+    height: 17px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    top: -1px;
+    text-align: center;
+  }
+  #yearlyPrice span {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .msrpMob {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    width: 360px;
+    max-width: 360px;
+    height: 17px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    top: -20px;
+    text-align: center;
+    letter-spacing: 0.03px;
+  }
+  #saveAmountStd {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    width: 360px;
+    max-width: 360px;
+    height: 17px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    top: 49px;
+    text-align: center;
+}
+#yearlyPriceStd {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #fff;
+  width: 360px;
+  max-width: 360px;
+  height: 17px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 71px;
+  top: 29px;
+  text-align: center;
+}
+#yearlyPriceStd span {
+  font-size: 20px;
+  font-weight: 300;
+}
+.msrpMobStd {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  width: 360px;
+  max-width: 360px;
+  height: 17px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: -52px;
+  top: -20px;
+  text-align: center;
+  letter-spacing: 0.03px;
+}
+  #planTitle + p,
+  #secondYrPrice {
+    font-size: 28px;
+    font-family: "Roboto";
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 23px;
+  }
+
+  .standardPlan #planTitle + p,
+  .standardPlan #secondYrPrice,
+  .premiumPlan #planTitle + p,
+  .premiumPlan #secondYrPrice {
+    position: relative;
+    top: 35px;
+  }
+
+  .deluxePlan #planTitle + p,
+  .deluxePlan #secondYrPrice {
+    position: relative;
+    top: 52px;
+  }
+
+  .standardPlan a,
+  .premiumPlan a,
+  .deluxePlan a {
+    position: relative;
+    top: 60px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .subscribeBtnForPlans {
+    width: 91%;
+    text-align: center;
+    height: 54px;
+    background-color: #ffc200;
+    color: #242e39;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 58px;
+    font-weight: 800;
+    font-family: Source Sans Pro;
+  }
+
+  .deluxePlan .subscribeBtnForPlans {
+    margin-top: 23px;
+  }
+  .plusPlan, .blankSpace, .standardPlan, .plansDividerDlx, 
+.plansDividerStd, .deluxePlan, .plansDividerPrm, .premiumPlan, #clickToSubscrip {
+  display: block;
+}
+  #plusPlanDescription,
+  #standardPlanDescription,
+  #premiumPlanDescription,
+  #deluxePlanDescription {
+    font-size: 12px;
+    font-family: "Roboto";
+    line-height: 18px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 0px 46px;
+    box-sizing: border-box;
+    font-weight: 100;
+  }
+
+  #standardPlanDescription,
+  #premiumPlanDescription,
+  #deluxePlanDescription {
+    position: relative;
+    top: 60px;
+  }
+
+  .benifits {
+    width: 100%;
+  }
+
+  .standardPlan .benifits,
+  .premiumPlan .benifits,
+  .deluxePlan .benifits {
+    position: relative;
+    margin-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  .benifitsTitle {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 15px;
+  }
+
+  .benifitsTitle > img {
+    margin: 0px 6px;
+    position: relative;
+    top: -1px;
+  }
+
+  .benifitsSection {
+    width: 100%;
+  }
+
+  #secTitle {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .benifitsSection > div {
+    color: white;
+    font-size: 15px;
+    font-family: Roboto;
+    width: 100%;
+    padding-left: 16px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 21px;
+  }
+
+  .benifitsSection > div img {
+    float: right;
+    position: relative;
+    right: 21px;
+  }
+
+  #antispyware {
+    line-height: 21px;
+    padding-top: 11px;
+  }
+
+  .benifitsSection > div:nth-child(odd) {
+    background-color: #29323d;
+  }
+
+  .benifitsSection > div:nth-child(even) {
+    background-color: #2e3a46;
+  }
+
+  .plusPlanDivider, .plansDividerStd, .plansDividerDlx, .plansDividerPrm {
+    width: 100%;
+    height: 7px;
+    background-color: #C72129;
+  }
+  .plansDividerStd {
+    background-color: #5C8727;
+  }
+  .plansDividerDlx {
+    background-color: #1F57A7;
+  }
+  .plansDividerPrm {
+    height: 45px;
+    background-color: #666666;
+    border-radius: 12px 12px 0px 0px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+.blankSpace {
+  background-color: #0e1116;
+  height: 23px;
+  width: 100%;
+}
+  .rotateIcon {
+    transform: rotateX(180deg);
+    top: 3px !important;
+  }
+
+  .descriptionForPlans {
+    font-size: 13px;
+    font-family: Roboto;
+    width: 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    line-height: 19px;
+    /* opacity: 0.9; */
+    font-weight: 100;
+    padding-right: 42px;
+  }
+  #clickToSubscrip {
+    background-color: #1F2731;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    height: 70px;
+    padding-top: 20px;
+  }
+  .hide {
+    display: none;
+  }
+
+  .radioSection {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 53px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+  }
+
+  .deluxePlan .radioSection {
+    top: 68px;
+  }
+
+  #firstRadio,
+  #secondRadio {
+    float: left;
+    width: 49%;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #8e8e8e;
+    border-right: 1px solid;
+    line-height: 24px;
+  }
+
+  #secondRadio {
+    border: none;
+  }
+
+  #secondRadio {
+    float: right;
+  }
+
+  .radioBtn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #ffc200;
+    float: left;
+    position: relative;
+    left: 9px;
+    top: 2px;
+  }
+
+  .radioBtn > div {
+    width: 11px;
+    height: 11px;
+    background-color: #ffc200;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
+
+  #notSelected > div {
+    display: none;
+  }
+
+  #notSelected {
+    border: 1px solid#8E8E8E;
+  }
+
+  #secondYrPrice {
+    display: none;
+  }
+  /* darkWebMonitoring */
+  .darkWebMonitoring {
+    width: 100%;
+    height: 640px;
+    background-image: url(Assets/Images/Image-BG-DarkWebMonitoring-Mobile.jpg);
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .darkWebMonitoring p.dwmTitle {
+    font-size: 28px;
+    width: 275px;
+    max-width: 275px;
+    padding-top: 40px;
+  }
+  .darkWebMonitoring p.dwmSubTitle {
+    font-size: 14px;
+    width: 330px;
+    max-width: 330px;
+    line-height: 22px;
+  }
+  .tableContent {
+    width: 250px;
+    max-width: 250px;
+    left: 55px;
+    top: 240px;
+    position: absolute;
+  }
+  .tableContent table {
+    width: 250px;
+    font-size: 20px;
+  }
+  .tableContent table tr {
+    display: grid;
+  }
+  .tableContent table tr td {
+    width: 295px;
+    height: 49px;
+  }
+  /* .allInOneSolution  */
+  .allInOneSolution {
+    height: 600px;
+  }
+  #firstHeader {
+    font-size: 28px;
+  }
+  #secondHeader {
+    font-size: 14px;
+  }
+  .allInOneSolution img {
+    top: 0;
+    width: 100%;
+  }
+  .rightSection {
+    display: none;
+  }
+  .awardWinning {
+    display: none;
+  }
+  /* priceSection1 */
+  .priceSection1 {
+    color: white;
+    width: 100%;
+    height: 567px;
+    background-image: url(Assets/Images/Image-BG-WardWinning-Mobile.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    display: block;
+  }
+
+  .priceSection1 a {
+    color: white;
+  }
+
+  .priceSection1 p:first-child {
+    font-size: 13px;
+    font-family: "Roboto";
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 18px;
+  }
+
+  #priceSectionTitle1 {
+    font-size: 28px;
+    font-family: Source Sans Pro;
+    line-height: 28px;
+    position: relative;
+    line-height: 36px;
+    width: 100%;
+    box-sizing: border-box;
+    top: 40px;
+    text-align: center;
+    padding: 10px 22px;
+  }
+
+  #txtUnderTitle {
+    font-size: 14px;
+    font-family: "Roboto";
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    padding: 0px 71px;
+    line-height: 22px;
+    font-weight: 100;
+  }
+
+  .prizeList .slider {
+    margin-top: 35px;
+    height: 270px;
+  }
+
+  .prizeList .slide img {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+  }
+
+  .prizeList .slide img + p {
+    font-size: 14px;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 0;
+    position: relative;
+    top: 22px;
+    padding: 0px 20px;
+    line-height: 26px;
+    font-weight: 100;
+  }
+
+  #sixStars {
+    width: 110px;
+    position: relative;
+    top: 0px;
+    left: 0%;
+  }
+  #excellentRate {
+    top: -12px;
+  }
+  .prizeList .slide img + #avTest {
+    top: 15px;
+
+  }
+  /* systemRequirements */
+  .systemDropdown,
+  .dropdownContent {
+    width: 92%;
+    height: 60px;
+  }
+  #leftSideContent,
+  #rightSideContent {
+    width: 100%;
+  }
+  .secureVpn {
+    margin-top: 100px;
+  }
+  .entitlement p:first-child,
+  .nortonSecureEntitlement p:first-child, .secureVpn p:first-child {
+    width: 100%;
+    font-size: 14px;
+  }
+  .securityTab p:first-child {
+    font-size: 13px;
+  }
+  .securityTab p:last-child,
+  .secureVpn p:last-child, .dropdownlastContent, .dropdownContent p:last-child {
+    font-size: 12px;
+    padding-right: 0;
+  }
+  .chooseSystemLeft,
+  .chooseSystemRight {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .chooseSystemRight div:first-child::after,
+  .chooseSystemRight div:first-child::after {
+    font-size: 12px;
+  }
+  select {
+    font-size: 13px;
+  }
+  #disclaimers {
+    width: 93%;
+  }
+  .disclaimer_header1 {
+    font-size: 16px;
+  }
+  #disclaimers li {
+    font-size: 12px;
+  }
+  .copyrightText {
+    width: 90%;
+  }
+  .securityTab {
+    margin-top: 33px;
+  }
+  .chooseSystemRight {
+    padding-top: 44px;
+  }
+  .systemDropdown i {
+    top: 17%;
+    margin-left: -12px;
+  }
+  .systemDropdown p {
+    top: 35%;
+    padding-left: 30px;
+    font-size: 16px;
+  }
+  .scrollTopBtn {
+    width: 40px;
+    height: 40px;
+    right: 25px;
+    bottom: 20px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .slide img + p {
+    top: 24.5%;
+  }
+}
